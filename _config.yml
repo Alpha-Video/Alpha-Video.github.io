@@ -3,5 +3,5 @@ description: Vision toolbox for video related tasks including action recognition
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-slate
-url: http://localhost:4000
-baseurl: 
+url: https://bopang1996.github.io/
+baseurl: web/
