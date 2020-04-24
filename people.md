@@ -40,12 +40,12 @@ layout: default
 </style>
 	
 	
-# Who are we
+## Who are we
 We are part of the video understanding group within the Machine Vision and Intelligence Group ([MVIG](http://mvig.sjtu.edu.cn/)) at [SJTU](https://en.wikipedia.org/wiki/Shanghai_Jiao_Tong_University). 
 We work on fundamental video understanding tasks including action recognition, video detection for robot, and tracking. 
 Our long-term research direction is to build an efficient and easy to use video processing backbone for all the video downstream tasks.
 
-# Maintainer
+## Maintainer
 <div style="padding-bottom: 45px ;">
 	<div class="container">
         <table>

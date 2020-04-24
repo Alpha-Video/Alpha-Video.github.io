@@ -2,122 +2,58 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## Introduction
+MVIdeoGallery is an open-sourced video understanding toolbox based on [PyTorch](https://pytorch.org/) covering multi-object tracking and action detection.
+In MVIdeoGallery, we released the first one-stage multi-object tracking (MOT) system **TubeTK** that can achieve 66.9 MOTA on [MOT-16](https://motchallenge.net/results/MOT16) dataset and 63 MOTA on [MOT-17](https://motchallenge.net/results/MOT17) dataset.
+For action detection, we released an efficient model **AlphAction**, which is the first open-source project that achieves 30+ mAP (32.4 mAP) with single model on [AVA](https://research.google.com/ava/) dataset.
 
-[Link to another page](./another-page.html).
+## Quick Start
+### pip
+Run this command:
+```shell
+pip install mvideogallery
+```
 
-There should be whitespace between paragraphs.
+### from source
+Clone repository from github:
+```bash
+git clone https://github.com/ mvideogallery
+cd mvideogallery
+```
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Setup and install MVIdeoGallery:
+```bash
+python setup.py build install
+```
 
-# Header 1
+## Features & Capabilities 
+* #### Multi-Object Tracking
+<img src="https://github.com/liyz15/3DTracking/raw/clean_version/assets/demo.gif" width = "600" align=center />
+  * Accurate end-to-end multi-object tracking.
+  * Do not need any ready-made image-level object deteaction models.
+  * Pre-trained model for pedestrian tracking. 
+  * Input: Frame list; video.
+  * Output: Videos decorated by colored bounding-box; Btube lists.
+  * For details usages, see our [docs]().
+* #### Action recognition
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## Paper and Citations
+```
+@inproceedings{pang2020tubeTK,
+  title={TubeTK: Adopting Tubes to Track Multi-Object in a One-Step Training Model},
+  author={Bo, Pang and Yizhuo, Li and Yifan, Zhang and Muchen, Li and Lu, Cewu},
+  booktitle={CVPR},
+  year={2020}
+}
 
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+@article{tang2020asynchronous,
+  title={Asynchronous Interaction Aggregation for Action Detection},
+  author={Tang, Jiajun and Xia, Jin and Mu, Xinzhi and Pang, Bo and Lu, Cewu},
+  journal={arXiv preprint arXiv:2004.07485},
+  year={2020}
 }
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+## Maintainers
+This project is open-sourced and maintained by Machine Vision and Intelligence Group ([MVIG](http://mvig.sjtu.edu.cn)) in Shanghai Jiao Tong University.
 
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
