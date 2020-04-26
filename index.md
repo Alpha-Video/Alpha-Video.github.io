@@ -39,7 +39,7 @@ pip install .
     * Output: Videos decorated by colored bounding-box; Btube lists.
     * For details usages, see our [docs](https://github.com/Alpha-Video/AlphaVideo/wiki).
 
-* #### Action recognition
+* #### Action Recognition
 
   For this task, we provide the [AlphAction](https://github.com/MVIG-SJTU/AlphAction) model as an implementation of paper ["Asynchronous Interaction Aggregation for Action Detection"](https://arxiv.org/abs/2004.07485).
   <img src="https://github.com/MVIG-SJTU/AlphAction/raw/master/gifs/demo2.gif" width = "600" align=center />

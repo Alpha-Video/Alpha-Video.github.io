@@ -1,5 +1,5 @@
 title: AlphaVideo
-description: Vision toolbox for video related tasks including action recognition, multi-object tracking.
+description: Video understanding toolbox developed by MVIG in SJTU, for the moment, providing models for action recognition and multi-object tracking.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-slate
