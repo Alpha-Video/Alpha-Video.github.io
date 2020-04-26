@@ -2,9 +2,6 @@
 
 ​
 <ul style="list-style-type: none; margin-right: 200px; margin-top: -20px; margin-bottom: -20px; padding: 0; overflow: hidden; background-color: #212121;">
-    <li style="float: right;">
-          <a style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;"
-             href="https://github.com/">Github</a></li>
     {% for link in site.data.navigation.main %}
       {% if link.url contains 'http' %}
         {% assign domain = '' %}

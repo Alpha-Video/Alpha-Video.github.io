@@ -6,15 +6,16 @@ main:
 
 #  - title: "Teaching"
 #    url: /teaching/
-    
+  - title: "Github"
+    url: https://github.com/Alpha-Video/AlphaVideo
   - title: "People"
-    url: people/
+    url: people
 
   - title: "Docs"
-    url: /doc/
+    url: https://github.com/Alpha-Video/AlphaVideo/wiki
 
   - title: "Get Started"
-    url: start/
+    url: start
     
 #  - title: "Guide"
 #    url: /markdown/
