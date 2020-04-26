@@ -5,7 +5,7 @@ layout: default
 ## Quick Start
 Run this command:
 ```shell
-pip install mvideogallery
+pip install alphavideo
 ```
 
 ## Pre-requisites
@@ -16,31 +16,31 @@ pip install mvideogallery
 ### pip
 Run this command:
 ```shell
-pip install mvideogallery
+pip install alphavideo
 ```
 
 ### from source
 Clone repository from github:
 ```bash
-git clone https://github.com/ mvideogallery
-cd mvideogallery
+git clone https://github.com/ alphavideo
+cd alphavideo
 ```
 
 Setup and install MVIdeoGallery:
 ```bash
-python setup.py build install
+pip install .
 ```
 
 ## Verification 
 Firstly, check the version of MVIdeoGallery.
 ```python
-import mvideogallery
-print(mvideogallery.__version__)
+import alphavideo
+print(alphavideo.__version__)
 ```
 To ensure that MVIdeoGallery was installed correctly, 
 we can verify the installation by running sample MVIdeoGallery code. Here we will construct a MOT model.
 ```python
-model = mvideogallery.model.tubeTK(pretrain=False)
+model = alphavideo.model.tubeTK(pretrain=False)
 print(model)
 ```
 The output should be something similar to:

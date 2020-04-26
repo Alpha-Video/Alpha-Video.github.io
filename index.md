@@ -3,41 +3,41 @@ layout: default
 ---
 
 ## Introduction
-MVIdeoGallery is an open-sourced video understanding toolbox based on [PyTorch](https://pytorch.org/) covering multi-object tracking and action detection.
-In MVIdeoGallery, we released the first one-stage multi-object tracking (MOT) system **TubeTK** that can achieve 66.9 MOTA on [MOT-16](https://motchallenge.net/results/MOT16) dataset and 63 MOTA on [MOT-17](https://motchallenge.net/results/MOT17) dataset.
+AlphaVideo is an open-sourced video understanding toolbox based on [PyTorch](https://pytorch.org/) covering multi-object tracking and action detection.
+In AlphaVideo, we released the first one-stage multi-object tracking (MOT) system **TubeTK** that can achieve 66.9 MOTA on [MOT-16](https://motchallenge.net/results/MOT16) dataset and 63 MOTA on [MOT-17](https://motchallenge.net/results/MOT17) dataset.
 For action detection, we released an efficient model **AlphAction**, which is the first open-source project that achieves 30+ mAP (32.4 mAP) with single model on [AVA](https://research.google.com/ava/) dataset.
 
 ## Quick Start
 ### pip
 Run this command:
 ```shell
-pip install mvideogallery
+pip install alphavideo
 ```
 
 ### from source
 Clone repository from github:
 ```bash
-git clone https://github.com/ mvideogallery
-cd mvideogallery
+git clone https://github.com/Alpha-Video/AlphaVideo.git alphaVideo
+cd alphaVideo
 ```
 
-Setup and install MVIdeoGallery:
+Setup and install AlphaVideo:
 ```bash
-python setup.py build install
+pip install .
 ```
 
 ## Features & Capabilities 
 * #### Multi-Object Tracking
-  For this task, we provide the [TubeTK]() model which is the official implementation of paper 
+  For this task, we provide the [TubeTK](https://github.com/BoPang1996/TubeTK) model which is the official implementation of paper 
   "TubeTK: Adopting Tubes to Track Multi-Object in a One-Step Training Model (CVPR2020, **oral**)." 
-  Detailed training and testing script on [MOT-Challenge](https://motchallenge.net/) datasets can be found [here]().
-  <img src="https://github.com/liyz15/3DTracking/raw/clean_version/assets/demo.gif" width = "600" align=center />
+  Detailed training and testing script on [MOT-Challenge](https://motchallenge.net/) datasets can be found [here](https://github.com/BoPang1996/TubeTK).
+  <img src="https://github.com/BoPang1996/TubeTK/raw/master/assets/demo.gif" width = "600" align=center />
     * Accurate end-to-end multi-object tracking.
     * Do not need any ready-made image-level object deteaction models.
     * Pre-trained model for pedestrian tracking. 
     * Input: Frame list; video.
     * Output: Videos decorated by colored bounding-box; Btube lists.
-    * For details usages, see our [docs]().
+    * For details usages, see our [docs](https://github.com/Alpha-Video/AlphaVideo/wiki).
 
 * #### Action recognition
 
@@ -47,7 +47,7 @@ python setup.py build install
     * Pre-trained model for 80 atomic action categories defined in [AVA](https://research.google.com/ava/).
     * Input: Video; camera.
     * Output: Videos decorated by human boxes, attached with corresponding action predictions.
-    * For details usages, see our [docs]().
+    * For details usages, see our [docs](https://github.com/Alpha-Video/AlphaVideo/wiki).
 
 ## Paper and Citations
 ```

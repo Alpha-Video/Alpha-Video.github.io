@@ -45,6 +45,24 @@ We are part of the video understanding group within the Machine Vision and Intel
 We work on fundamental video understanding tasks including action recognition, video detection for robot, and tracking. 
 Our long-term research direction is to build an efficient and easy to use video processing backbone for all the video downstream tasks.
 
+## Mentor
+<div style="padding-bottom: 45px ;">
+	<div class="container">
+        <table>
+          <tbody><tr>
+            <td>
+              <div class="instructor">
+                <a href="http:\\mvig.sjtu.edu.cn" target="http:\\mvig.sjtu.edu.cn" rel="external">
+                  <div class="instructorphoto"><img src="/assets/images/cewulu.jpg"></div>
+                  <div>Cewu Lu</div>
+                </a>
+              </div>
+            </td>
+          </tr></tbody>
+        </table>
+    </div>
+</div>
+
 ## Maintainer
 <div style="padding-bottom: 45px ;">
 	<div class="container">
@@ -107,14 +125,6 @@ Our long-term research direction is to build an efficient and easy to use video 
                 <a href="https://gabrielxia.github.io/" target="https://gabrielxia.github.io/" rel="external">
                   <div class="instructorphoto"><img src="/assets/images/xiajin.jpg"></div>
                   <div>Jin Xia</div>
-                </a>
-              </div>
-            </td>
-            <td>
-              <div class="instructor">
-                <a href="http:\\mvig.sjtu.edu.cn" target="http:\\mvig.sjtu.edu.cn" rel="external">
-                  <div class="instructorphoto"><img src="/assets/images/cewulu.jpg"></div>
-                  <div>Cewu Lu (mentor)</div>
                 </a>
               </div>
             </td>

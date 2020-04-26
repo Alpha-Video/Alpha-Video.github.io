@@ -1,5 +1,5 @@
-title: MVIdeoGallery
-description: Vision toolbox for video related tasks including action recognition, multi-object tracking, and robotic tasks.
+title: AlphaVideo
+description: Vision toolbox for video related tasks including action recognition, multi-object tracking.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-slate
