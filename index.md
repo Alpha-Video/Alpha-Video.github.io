@@ -28,14 +28,26 @@ python setup.py build install
 
 ## Features & Capabilities 
 * #### Multi-Object Tracking
-<img src="https://github.com/liyz15/3DTracking/raw/clean_version/assets/demo.gif" width = "600" align=center />
-  * Accurate end-to-end multi-object tracking.
-  * Do not need any ready-made image-level object deteaction models.
-  * Pre-trained model for pedestrian tracking. 
-  * Input: Frame list; video.
-  * Output: Videos decorated by colored bounding-box; Btube lists.
-  * For details usages, see our [docs]().
+  For this task, we provide the [TubeTK]() model which is the official implementation of paper 
+  "TubeTK: Adopting Tubes to Track Multi-Object in a One-Step Training Model (CVPR2020, **oral**)." 
+  Detailed training and testing script on [MOT-Challenge](https://motchallenge.net/) datasets can be found [here]().
+  <img src="https://github.com/liyz15/3DTracking/raw/clean_version/assets/demo.gif" width = "600" align=center />
+    * Accurate end-to-end multi-object tracking.
+    * Do not need any ready-made image-level object deteaction models.
+    * Pre-trained model for pedestrian tracking. 
+    * Input: Frame list; video.
+    * Output: Videos decorated by colored bounding-box; Btube lists.
+    * For details usages, see our [docs]().
+
 * #### Action recognition
+
+  For this task, we provide the [AlphAction](https://github.com/MVIG-SJTU/AlphAction) model as an implementation of paper ["Asynchronous Interaction Aggregation for Action Detection"](https://arxiv.org/abs/2004.07485).
+  <img src="https://github.com/MVIG-SJTU/AlphAction/raw/master/gifs/demo2.gif" width = "600" align=center />
+    * Accurate and efficient action detection.
+    * Pre-trained model for 80 atomic action categories defined in [AVA](https://research.google.com/ava/).
+    * Input: Video; camera.
+    * Output: Videos decorated by human boxes, attached with corresponding action predictions.
+    * For details usages, see our [docs]().
 
 ## Paper and Citations
 ```
