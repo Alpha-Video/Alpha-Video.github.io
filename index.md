@@ -32,7 +32,7 @@ pip install .
   "TubeTK: Adopting Tubes to Track Multi-Object in a One-Step Training Model (CVPR2020, **oral**)." 
   Detailed training and testing script on [MOT-Challenge](https://motchallenge.net/) datasets can be found [here](https://github.com/BoPang1996/TubeTK).
   
-  <img src="https://github.com/BoPang1996/TubeTK/raw/master/assets/demo.gif" width="600" align=center />
+  <img src="https://github.com/BoPang1996/TubeTK/raw/master/assets/demo.gif" width="600" alt="TubeTK Demo" class="inline"/>
    
     * Accurate end-to-end multi-object tracking.
     * Do not need any ready-made image-level object deteaction models.
@@ -45,7 +45,7 @@ pip install .
 
   For this task, we provide the [AlphAction](https://github.com/MVIG-SJTU/AlphAction) model as an implementation of paper ["Asynchronous Interaction Aggregation for Action Detection"](https://arxiv.org/abs/2004.07485).
   
-  <img src="https://github.com/MVIG-SJTU/AlphAction/raw/master/gifs/demo2.gif" width="600" align=center />
+  <img src="https://github.com/MVIG-SJTU/AlphAction/raw/master/gifs/demo2.gif" width="600" alt="AlphAction Demo" class="inline"/>
     
     * Accurate and efficient action detection.
     * Pre-trained model for 80 atomic action categories defined in [AVA](https://research.google.com/ava/).
