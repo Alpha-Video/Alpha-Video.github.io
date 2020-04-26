@@ -8,13 +8,13 @@ main:
 #    url: /teaching/
     
   - title: "People"
-    url: /people/
+    url: people/
 
   - title: "Docs"
     url: /doc/
 
   - title: "Get Started"
-    url: /start/
+    url: start/
     
 #  - title: "Guide"
 #    url: /markdown/
