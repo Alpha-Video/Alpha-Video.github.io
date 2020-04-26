@@ -1,7 +1,7 @@
 title: AlphaVideo
 description: Video understanding toolbox developed by MVIG in SJTU, for the moment, providing models for action recognition and multi-object tracking.
 show_downloads: false
-google_analytics:
+google_analytics: UA-164213555-2
 theme: jekyll-theme-slate
 url: https://Alpha-Video.github.io/
 baseurl: ''
